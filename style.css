@@ -1,0 +1,130 @@
+body {
+    background-color: #8FBC8F;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 900px;
+    display: flex;
+    margin: 20px auto;
+}
+
+.Text {
+    text-align: left;
+    padding: 10px;
+}
+
+.TextBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Kairys stulpas */
+
+.LeftColumn {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Kairio stulpo viršus */
+
+.Top {
+    display: flex;
+    flex: 1;
+    background-color: rgb(250,250,250);
+    margin-bottom: 20px;
+}
+
+.ImgTop img {
+    width: 100%;
+}
+
+
+
+/* Kairio stulpo apačia */
+
+.Bottom {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: #8FBC8F;
+}
+
+.BottomLeft {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 20px;;
+    background-color: rgb(250,250,250);
+}
+
+.ImgBottomLeft img {
+    width: 100%;
+    height: auto;
+}
+
+.BottomRights {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #8FBC8F;
+}
+
+.BottomRights .TextWithImg {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-bottom:20px;
+    background-color: rgb(250,250,250);
+}
+
+.ImgBottomRights img {
+    width: 100%;
+    height: auto;
+}
+
+.BottomRights .TextNoImg {
+    display: flex;
+    flex: 1;
+    background-color: rgb(250,250,250);
+    margin-bottom: 20px;
+}
+
+
+/* Dešinys stulpas */
+
+.RightColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.RightWithImg {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: rgb(250,250,250);
+    margin-bottom: 20px;
+}
+
+.ImgRightColumn img {
+    width: 100%;
+    height: auto;
+}
+
+.RightColumn .TextNoImg {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(250,250,250);
+    margin-bottom: 20px;
+    padding: 10px;
+}
